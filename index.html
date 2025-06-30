@@ -8,5 +8,15 @@
 <body>
     <h1>Olá, mundo!</h1>
      <input type="text">
+     <button onclick="alerta()">enviar</button>
+     
+     <script>
+       function alerta () {
+            const input = document.querySelector('input')
+            const alerta = input.value
+
+            alert(alerta)
+        }
+     </script>
 </body>
 </html>
